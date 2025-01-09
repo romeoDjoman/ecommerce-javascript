@@ -1,6 +1,6 @@
 # E-commerce en JavaScript
 ### Un projet personnel d'application e-commerce développé en JavaScript. 
-Ce site web inclut les fonctionnalités principales d'une boutique en ligne :
+Ce site internet inclut les fonctionnalités principales d'une boutique en ligne :
 
 - Page produit : Affichage des produits avec leurs détails essentiels.
 - Page de détail : Description approfondie de chaque produit.
