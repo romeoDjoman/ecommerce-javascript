@@ -1,11 +1,14 @@
 # E-commerce avec JavaScript
 ### Un projet personnel d'application e-commerce développé en JavaScript. 
-Ce site internet inclut les fonctionnalités principales d'une boutique en ligne :
 
 ## Git 
-
+- HTTPS : https://github.com/romeoDjoman/ecommerce-javascript.git
+- GitHub CLI : gh repo clone romeoDjoman/ecommerce-javascript
+- SSH : git@github.com:romeoDjoman/ecommerce-javascript.git
 
 ## Fonctionalités 
+Ce site internet inclut les fonctionnalités principales d'une boutique en ligne :
+
 _Légende_ <br>
 ✅Fonctionalité développée <br> 
 🔄Fonctionalité en cours de développement
