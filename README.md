@@ -12,3 +12,43 @@ _Légende_ <br>
 - Panier : Gestion des articles ajoutés par l'utilisateur, avec possibilité de modifier les quantités ou de supprimer des articles.
 - Achat : Processus de commande complet pour finaliser les transactions.
 - Idéal pour les passionnés de développement cherchant à comprendre ou à expérimenter la création d'applications e-commerce.
+
+## Affichage des produits 
+J'ai utilisé un fetch API pour récupérer et afficher une liste de produits Amazon à partir d'une API externe. Voici un aperçu du fonctionnement :
+```javascript
+const fetchProducts = async () => {
+  const response = await fetch('https://fakestoreapiserver.reactbd.com/amazonproducts');
+  const data = await response.json();
+  return data;
+};
+const displayFeaturedProducts = async () => {
+  const products = await fetchProducts();
+  const container = document.getElementById('featured-products');
+  container.innerHTML = products.map(product => `
+    <div class="col mb-5">
+        <div class="card h-100">
+            <img class="card-img-top" src="${product.image.trim()}" alt="${product.title.trim()}" />
+            <!-- Product details -->
+            <div class="card-body p-4">
+                <div class="text-center">
+                    <!-- Product name -->
+                    <h5 class="fw-bolder">${product.title.trim()}</h5>
+                    <!-- Product price -->
+                    <span class="text-muted text-decoration-line-through">$${product.oldPrice?.toFixed(2)}</span>
+                    $${product.price?.toFixed(2)}
+                </div>
+            </div>
+            <!-- Product actions -->
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                    <a class="btn btn-outline-dark mt-auto" href="#">View options</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    `).join('');
+};
+displayFeaturedProducts(); ```
+
+![image](https://github.com/user-attachments/assets/b93c1fb3-0d24-4d34-af1a-72343c16a422)
+
