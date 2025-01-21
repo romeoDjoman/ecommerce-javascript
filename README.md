@@ -2,7 +2,8 @@
 ### Un projet personnel d'application e-commerce développé en JavaScript. 
 Ce site internet inclut les fonctionnalités principales d'une boutique en ligne :
 
-✅Fonctionalité développée 
+_Légende_
+✅Fonctionalité développée <br> 
 🔄Fonctionalité en cours de développement
 
 - ✅Page produit : Affichage des produits
