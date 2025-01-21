@@ -2,7 +2,11 @@
 ### Un projet personnel d'application e-commerce développé en JavaScript. 
 Ce site internet inclut les fonctionnalités principales d'une boutique en ligne :
 
-- Page produit : Affichage des produits avec leurs détails essentiels.
+✅Fonctionalité développée 
+🔄Fonctionalité en cours de développement
+
+- ✅Page produit : Affichage des produits
+- 🔄Page produit : Affichage détails produits.
 - Page de détail : Description approfondie de chaque produit.
 - Panier : Gestion des articles ajoutés par l'utilisateur, avec possibilité de modifier les quantités ou de supprimer des articles.
 - Achat : Processus de commande complet pour finaliser les transactions.
