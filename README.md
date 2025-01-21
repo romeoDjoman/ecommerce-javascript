@@ -1,4 +1,4 @@
-# E-commerce en JavaScript
+# E-commerce avec JavaScript
 ### Un projet personnel d'application e-commerce développé en JavaScript. 
 Ce site internet inclut les fonctionnalités principales d'une boutique en ligne :
 
@@ -48,7 +48,11 @@ const displayFeaturedProducts = async () => {
     </div>
     `).join('');
 };
-displayFeaturedProducts(); ```
+displayFeaturedProducts(); 
+
+```
+
+
 
 ![image](https://github.com/user-attachments/assets/b93c1fb3-0d24-4d34-af1a-72343c16a422)
 
