@@ -2,6 +2,10 @@
 ### Un projet personnel d'application e-commerce développé en JavaScript. 
 Ce site internet inclut les fonctionnalités principales d'une boutique en ligne :
 
+## Git 
+
+
+## Fonctionalités 
 _Légende_ <br>
 ✅Fonctionalité développée <br> 
 🔄Fonctionalité en cours de développement
@@ -51,6 +55,7 @@ const displayFeaturedProducts = async () => {
 displayFeaturedProducts(); 
 
 ```
+
 
 ![image](https://github.com/user-attachments/assets/d6d56338-2036-44b7-b74c-0e95200e7a34)
 
