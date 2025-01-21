@@ -52,7 +52,6 @@ displayFeaturedProducts();
 
 ```
 
+![image](https://github.com/user-attachments/assets/d6d56338-2036-44b7-b74c-0e95200e7a34)
 
-
-![image](https://github.com/user-attachments/assets/b93c1fb3-0d24-4d34-af1a-72343c16a422)
 
